@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvc5demo", "mvc5demo\mvc5demo.csproj", "{E74A22B6-ED93-4B48-A2FB-0FA5DA136F35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 基础结构层", "01 基础结构层", "{F835B0D3-3818-43A3-A7B5-412A4D878C44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "用户界面层", "用户界面层", "{5E7F36D6-FA12-4513-9E59-61B876304886}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "应用层", "应用层", "{FB21B4DA-E9A8-4871-A03D-35A36379FB1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "领域层", "领域层", "{914C7A55-1791-4CD4-A418-44F2223E74C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvc5demo.Service", "mvc5demo.Service\mvc5demo.Service.csproj", "{5FBFFE50-8AD2-49C2-BCF3-D6327ABE229A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvc5demo.Common", "mvc5demo.Common\mvc5demo.Common.csproj", "{74357D65-0096-4DE6-8AEC-01831EF87FFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvc5demo.Data", "mvc5demo.Data\mvc5demo.Data.csproj", "{919EB748-59DF-4374-9D75-7E13C8D68460}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E74A22B6-ED93-4B48-A2FB-0FA5DA136F35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74A22B6-ED93-4B48-A2FB-0FA5DA136F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74A22B6-ED93-4B48-A2FB-0FA5DA136F35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E74A22B6-ED93-4B48-A2FB-0FA5DA136F35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FBFFE50-8AD2-49C2-BCF3-D6327ABE229A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FBFFE50-8AD2-49C2-BCF3-D6327ABE229A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FBFFE50-8AD2-49C2-BCF3-D6327ABE229A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FBFFE50-8AD2-49C2-BCF3-D6327ABE229A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74357D65-0096-4DE6-8AEC-01831EF87FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74357D65-0096-4DE6-8AEC-01831EF87FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74357D65-0096-4DE6-8AEC-01831EF87FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74357D65-0096-4DE6-8AEC-01831EF87FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{919EB748-59DF-4374-9D75-7E13C8D68460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919EB748-59DF-4374-9D75-7E13C8D68460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919EB748-59DF-4374-9D75-7E13C8D68460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919EB748-59DF-4374-9D75-7E13C8D68460}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E74A22B6-ED93-4B48-A2FB-0FA5DA136F35} = {5E7F36D6-FA12-4513-9E59-61B876304886}
+		{5FBFFE50-8AD2-49C2-BCF3-D6327ABE229A} = {FB21B4DA-E9A8-4871-A03D-35A36379FB1C}
+		{74357D65-0096-4DE6-8AEC-01831EF87FFE} = {F835B0D3-3818-43A3-A7B5-412A4D878C44}
+		{919EB748-59DF-4374-9D75-7E13C8D68460} = {F835B0D3-3818-43A3-A7B5-412A4D878C44}
+	EndGlobalSection
+EndGlobal
